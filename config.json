@@ -1,0 +1,45 @@
+{
+  "use_ssh": true,
+  "pc_host": "192.168.0.50",
+  "pc_port": 22,
+  "pc_user": "lmuser",
+  "ssh_bind": "",
+  "cam_user": "root",
+  "proxy_port": 8899,
+  "stream_query": "resolution=640x480&fps=10",
+  "units": [
+    {
+      "name": "Unit .90",
+      "ip": "192.168.0.90",
+      "local_port": 18090,
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Unit .100",
+      "ip": "192.168.0.100",
+      "local_port": 18100,
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Unit .110",
+      "ip": "192.168.0.110",
+      "local_port": 18110,
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}
